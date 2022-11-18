@@ -1,0 +1,41 @@
+.header nav {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 100%;
+}
+
+.header nav ul {
+  display: flex;
+}
+
+.header nav ul li:hover {
+  border-bottom: 3px var(--white) solid;
+  margin-top: -4px;
+}
+
+.header nav ul li {
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.headerContainer {
+  margin: 0 auto;
+  overflow: auto;
+  background: var(--primaryColor);
+  color: var(--white);
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.headerContainer h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  justify-content: flex-start;
+}
+
+.container ul {
+  justify-content: flex-end;
+  align-items: space-between;
+}
